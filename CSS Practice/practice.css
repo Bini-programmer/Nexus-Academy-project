@@ -1,0 +1,20 @@
+body{
+    background-color:lightblue;
+}
+#first{
+    background-color:blue;
+   
+}
+.primary{
+    background-color:green;
+}
+p{
+    color:rgb(44, 3, 3);
+}
+
+ .primary.plus{
+    background-color:yellow;
+ }
+ .primary:hover{
+    background-color:orange;
+ }
