@@ -1,20 +1,27 @@
-body{
-    background-color:lightblue;
+body {
+  background-color: lightblue;
 }
-#first{
-    background-color:blue;
-   
+body {
+  background-color:red;
 }
-.primary{
-    background-color:green;
+body {
+  background-color:indianred;
+} 
+#first {
+  background-color: blue;
 }
-p{
-    color:rgb(44, 3, 3);
+.primary {
+  background-color: green;
+}
+p {
+  color: rgb(44, 3, 3);
 }
 
- .primary.plus{
-    background-color:yellow;
- }
- .primary:hover{
-    background-color:orange;
- }
+.primary.plus {
+  background-color: yellow;
+}
+.primary:hover {
+  background-color: orange;
+}
+
+ 
