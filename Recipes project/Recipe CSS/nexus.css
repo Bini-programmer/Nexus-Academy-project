@@ -1,0 +1,141 @@
+.title {
+  background-color: rgb(61, 28, 59);
+  padding: 5px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+h1 {
+  font-size: 50px;
+}
+.navs {
+  display: flex;
+}
+.home {
+  margin-left: 5px;
+  margin-right: 55px;
+}
+.courses {
+  margin-right: 55px;
+}
+.contact {
+  margin-left: 55px;
+}
+body {
+  background-color: aqua;
+}
+.forms {
+  background-color: rgb(202, 209, 216);
+}
+
+.learn {
+  font-size: 35px;
+}
+.paragraph11 {
+  font-size: 25px;
+}
+.mixed-form {
+  display: flex;
+  align-items: center;
+}
+.start {
+  font-size: 30px;
+}
+.forms {
+  margin-left: 125px;
+  border: 2px solid rgb(87, 15, 15);
+  margin-top: 35px;
+
+  border-radius: 2rem;
+  border-width: 3px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-bottom: 30px;
+}
+.both-names {
+  display: flex;
+}
+.middle-form {
+  padding-left: 20%;
+}
+button {
+  cursor: pointer;
+}
+#btn {
+  border-width: 2px;
+  border-radius: 2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  background-color: rgb(80, 148, 112);
+}
+#first-name,
+#last-name,
+#email-address,
+#password,
+#confirm-password,
+#country,
+#phone-number {
+  border-radius: 2rem;
+}
+.mixed-format {
+  border: 2px solid rgb(21, 6, 6);
+  display: flex;
+  align-items: center;
+  border-radius: 1.5rem;
+  padding-top: 5px;
+  padding-bottom: 3%;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  background-color: rgb(223, 217, 221);
+}
+.formats {
+  font-size: 25px;
+  border-radius: 1.5rem;
+  margin-left: 30%;
+  box-sizing: border-box;
+}
+.description {
+  font-size: 25px;
+  border-radius: 1.5rem;
+  margin-right: 20px;
+  margin-left: 5%;
+}
+#pass {
+  font-size: 15px;
+}
+#login {
+  padding: 2%;
+  padding-left: 66px;
+  padding-right: 66px;
+  border-radius: 2rem;
+  background-color: rgb(113, 113, 234);
+  color: whitesmoke;
+}
+.log-pass {
+  padding: 2%;
+  border-radius: 2rem;
+}
+#email {
+  padding: 2%;
+  border-radius: 2rem;
+}
+.signup {
+  font-size: 20px;
+}
+.with-goo {
+  padding: 2%;
+  padding-left: 18.5px;
+  padding-right: 18.5px;
+  border-radius: 2rem;
+  background-color: rgb(129, 99, 143);
+  color: whitesmoke;
+}
+#or {
+  font-size: 15px;
+  padding-left: 70px;
+}
