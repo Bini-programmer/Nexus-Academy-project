@@ -1,99 +1,120 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexus Academy</title>
-  </head>
- 
-  <body>
-    
-    <div class="container">
-      <header>
-        <nav>
-            <ul>
-            <a href="www.nexusacademy.com">Home</a> |
-            <a href="www.nexusacademy.com/courses">Courses</a> |
-             <a href="www.nexusacademy.com/about">About</a> |
-             <a href="www.nexusacademy.com/contact">Contact</a> 
-          </ul>
-           </nav>
-        
-          <h1>Nexus Academy</h1>
-          <hr class ="short-line">
-           <section>
-             <h1>Welcome to Nexus Academy!</h1>
-            <b>
-              <h2>Learn Languages with Us.</h2>
-            </b>
-            <b>
-              <h2>Build Your Feature.</h2>
-            </b>
-           </section>
-          
-        
-      </header>
 
-    </div>
-    <div>
-      <strong>
-          Nexus Academy Language Center helps you<br> speak with confidence and connect the world.</p>
-      </strong>
-      
-    </div>
-    <section>
-      <div>
-        <form>
-               <ul>
-            <label for="first-name">First Name:</label>
-            <input type="text" id="first-name" name="first-name" placeholder="enter your name" required>
-            </ul>
-            <ul>
-            <label for="last-name">Last Name:</label>
-            <input type="text" id="last-name" name="last-name" placeholder="enter your last name" required>
-            </ul>
-            <ul>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" placeholder="enter your email" required>
-            </ul>
-            <ul>
-              <label for="password">Password</label>
-              <input type="password" id="password" name="password" placeholder="enter your password" required>
-            </ul>
-            <ul>
-            <label for="country">Country Name:</label>
-             <input type="text" id="country" name="country" oninput="this.value = this.value.replace(/[^A-Za-z ]/g, '')" placeholder="enter your country" required>
-            </ul>
-            <ul>
-            <label for="phone number">Phone Number</label>
-            <input type="number" id="phone number" name="phone number" placeholder="enter your phone number" required>
-            </ul>
-            <ul>
-        
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="enter your message"></textarea>
-            </ul>
-            <ul>
-            <button type="submit">LOGIN</button>
-            </ul>
-            <ul>
-                <p>Don't have an account?  <a href="www.nexusacademy.com/register">Sign up here</a></p>
-            </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus Academy</title>
+  <link rel="stylesheet" href="./Recipes project/Recipe CSS/nexus.css">
+</head>
 
+<body>
+
+  <div class="container">
+    <header class="navs">
+      <nav>
+        <ul>
+          <a class="home" href="www.nexusacademy.com">Home</a>
+          <a class="courses" href="www.nexusacademy.com/courses">Courses</a>
+          <a class="about" href="www.nexusacademy.com/about">About</a>
+          <a class="contact" href="www.nexusacademy.com/contact">Contact</a>
+          <a class="contact" href="./Recipes project/Recipe CSS/nex-log.html">Home Page</a>
+
+
+        </ul>
+      </nav>
+    </header>
+
+    <div class="title">
+      <h1>Nexus Academy</h1>
+    </div>
+    <main class="mixed-form">
+      <section class="descriptions">
+
+        <section>
+          <h1>WELCOME TO <br> NEXUS <br> ACADEMY!</h1>
+          <div class="learn">
+            <p>Learn Languages with Us. <br>
+              Build Your Feature.</p>
+          </div>
+        </section>
+
+
+        <div class="paragraph11">
+          <strong>
+            Nexus Academy Language Center helps you<br> speak with confidence and connect the world.</p>
+          </strong>
+        </div>
+      </section>
+
+
+      <section class="forms">
+        <div>
+          <p class="start">START YOUR JOURNEY TODAY</p>
+        </div>
+        <div>
+          <form>
+            <section>
+              <div class="both-names">
+                <ul>
+                  <label for="first-name">First Name:</label>
+                  <input type="text" id="first-name" name="first-name" placeholder="enter your name" required>
+                </ul>
+                <ul>
+                  <label id="ln" for="last-name">Last Name:</label>
+                  <input type="text" id="last-name" name="last-name" placeholder="enter your last name" required>
+                </ul>
+              </div>
+            </section>
+            <section class="middle-form">
+              <div>
+                <ul>
+                  <label for="email">Email Address:</label>
+                  <input type="email" id="email-address" name="email" placeholder="enter your email" required>
+                </ul>
+                <ul>
+                  <label for="password">Password:</label>
+                  <input type="password" id="password" name="password" placeholder="enter your password" required>
+                </ul>
+                <ul>
+                   <label for="password">Confirm Your Password:</label>
+                  <input type="password" id="confirm-password" name="confirm-password" placeholder="confirm your password" required>
+                </ul>
+                <ul>
+                  <label for="country">Country Name:</label>
+                  <input type="text" id="country" name="country"
+                    oninput="this.value = this.value.replace(/[^A-Za-z ]/g, '')" placeholder="enter your country"
+                    required>
+                </ul>
+                <ul>
+                  <label for="phone number">Phone Number:</label>
+                  <input type="number" id="phone-number" name="phone number" placeholder="enter your phone number"
+                    required>
+                </ul>
+
+                <ul>
+                  <button id="btn" type="submit">Create Account</button>
+                </ul>
+              </div>
+            </section>
           </form>
-    </div>
-    </section>
-    
+        </div>
+      </section>
+    </main>
+
     <footer>
       <nav>
-         <h3>Contact Us</h3>
-    
-        <a href="www.nexusacademy.com/contact">+1234567890</a><br>
-        <a href="www.nexusacademy.com/email">email@nexusacademy.com</a><br>
-        <a href="www.nexusacademy.com/PO.Box">PO Box 12345</a>
+        <h3>Contact Us</h3>
+        <div class="#">
+          <a href="www.nexusacademy.com/contact">+1234567890</a><br>
+          <a href="www.nexusacademy.com/email">email@nexusacademy.com</a><br>
+          <a href="www.nexusacademy.com/PO.Box">PO Box 12345</a>
+        </div>
+
       </nav>
-       
+
       <p>&copy; 2026 Nexus Academy. All rights reserved.</p>
     </footer>
-  </body>
+</body>
+
 </html>

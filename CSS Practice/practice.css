@@ -1,27 +1,141 @@
 body {
-  background-color: lightblue;
+  background-color: azure;
 }
-body {
-  background-color:red;
+
+.lists {
+  font-size: large;
+  margin-left: 15px;
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 10px;
 }
-body {
-  background-color:indianred;
-} 
+
+.first-txt {
+  background-color: rgb(165, 42, 147);
+  color: aliceblue;
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.last-txt {
+  background-color: rgb(165, 42, 147);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: medium;
+  color: aliceblue;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.the-images{
+  display: flex;
+  margin: 10px 7px;
+
+}
 #first {
-  background-color: blue;
-}
-.primary {
-  background-color: green;
-}
-p {
-  color: rgb(44, 3, 3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
-.primary.plus {
-  background-color: yellow;
+img {
+  max-width: 100%;
 }
-.primary:hover {
-  background-color: orange;
+ 
+ 
+.images-12 {
+display: flex;
+ margin-top: 10px;
+  margin-bottom: 10px;
+} 
+ .image1{
+  margin-left: 7px;
+  margin-right: 10px;
+}
+.image2{
+  margin-left: 10px;
+  margin-right: 7px;
 }
 
+.nav-home,
+.nav-about,
+.nav-contact,
+.nav-products {
+  display: inline-block;
+  margin: 1%;
+}
+.nav-about:hover {
+  background-color: aqua;
+}
+.nav-home:hover {
+  background-color: aqua;
+}
+
+.nav-contact:hover {
+  background-color: aqua;
+}
+.nav-products:hover {
+  background-color: aqua;
+}
+
+.nav-home {
+  margin-right: 55px;
+  margin-left: 5px;
+}
+.nav-about {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.nav-contact {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.nav-products {
+  margin-left: 55px;
+}
+.last-navs {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#nav1 {
+  margin-left: 5px;
+  margin-right: 50px;
+}
+#nav2 {
+  margin-left: 50px;
+}
+.expensive {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+.paragraph {
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 7px;
+}
+.cars3355{
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.car33{
+  margin-left: 7px;
+  margin-right: 15px;
+}
+.car55{
+  margin-left: 15px;
+  margin-right: 7px;
+}
  

@@ -1,9 +1,29 @@
-body{
-    background-color: aquamarine;
+body {
+  background-color: aquamarine;
 }
 
-
-
-.click{
-    cursor: pointer;
+.click {
+  cursor: pointer;
 }
+image{
+    max-width: 100%;
+}
+.my-burger, .my-pasta, .my-pizza{
+    display: inline-block;
+}
+.my-foods{
+    width: 930px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.my-burger{
+    margin-right: 5px;
+}
+ .my-pasta{
+    margin-left: 5px;
+    margin-right: 5px;
+ }
+ .my-pizza{
+    margin-left: 5px;
+ }
+  
