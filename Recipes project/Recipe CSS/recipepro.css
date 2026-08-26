@@ -1,29 +1,273 @@
 body {
   background-color: aquamarine;
 }
-
+/* these are the click Buttons*/
 .click {
+  border-radius: 2rem;
+  background-color: rgb(143, 86, 212);
   cursor: pointer;
 }
-image{
-    max-width: 100%;
+.btn1 {
+  margin-left: 113px;
+  border-radius: 2rem;
+  border-color: rgb(243, 195, 133);
+  background-color: rgb(127, 129, 255);
+  cursor: pointer;
 }
-.my-burger, .my-pasta, .my-pizza{
-    display: inline-block;
+.btn2 {
+  margin-left: 113px;
+  border-radius: 2rem;
+  border-color: rgb(243, 195, 133);
+  background-color: rgb(127, 129, 255);
+  cursor: pointer;
 }
-.my-foods{
-    width: 930px;
-    margin-right: auto;
-    margin-left: auto;
+.btn3 {
+  margin-left: 113px;
+  border-radius: 2rem;
+  border-color: rgb(243, 195, 133);
+  background-color: rgb(127, 129, 255);
+  cursor: pointer;
 }
-.my-burger{
-    margin-right: 5px;
+.btn1:hover {
+  background-color: coral;
 }
- .my-pasta{
-    margin-left: 5px;
-    margin-right: 5px;
- }
- .my-pizza{
-    margin-left: 5px;
- }
-  
+.btn2:hover {
+  background-color: coral;
+}
+.btn3:hover {
+  background-color: coral;
+}
+#order-pasta11 {
+  margin-left: 127px;
+}
+#order-pasta11:hover {
+  background-color: coral;
+}
+#order-pasta22:hover {
+  background-color: coral;
+}
+#order-pasta33:hover {
+  background-color: coral;
+}
+#order-pasta22 {
+  margin-left: 157px;
+}
+#order-pasta33 {
+  margin-left: 157px;
+}
+#pasta11 {
+  background-color: rgb(251, 111, 60);
+}
+#pasta22 {
+  background-color: rgb(251, 60, 105);
+}
+#pasta33 {
+  background-color: rgb(178, 251, 60);
+}
+#menu {
+  text-align: center;
+  font-size: 24.5px;
+}
+image {
+  max-width: 100%;
+}
+.my-burger,
+.my-pasta,
+.my-pizza {
+  display: inline-block;
+}
+.my-foods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.my-foods p {
+  text-align: center;
+}
+.my-spaghetti p {
+  text-align: center;
+}
+
+.my-burger {
+  margin-right: 5px;
+  border: 2px solid orange;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  background-color: coral;
+}
+.my-pasta {
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px solid orange;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  background-color: rgb(108, 172, 255);
+}
+.my-pizza {
+  margin-left: 5px;
+  border: 2px solid orange;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  background-color: rgb(255, 80, 208);
+}
+.my-spaghetti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  justify-content: space-around;
+}
+.pasta {
+  border: 2px solid orangered;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+h1 {
+  text-align: center;
+  background-color: rgb(32, 32, 195);
+  padding: 1.5%;
+  color: whitesmoke;
+}
+.all-text {
+  display: flex;
+  max-width: 100%;
+}
+.txt11 {
+  border: 2px solid rgb(107, 47, 47);
+  margin-right: 5px;
+  background-color: rgb(114, 153, 201);
+  border-radius: 2rem;
+}
+.txt22 {
+  border: 2px solid rgb(107, 47, 47);
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 2rem;
+  background-color: rgb(97, 131, 157);
+}
+.txt33 {
+  border: 2px solid rgb(107, 47, 47);
+  margin-left: 5px;
+  border-radius: 2rem;
+  background-color: rgb(179, 102, 102);
+}
+.txt11,
+.txt22,
+.txt33 {
+  width: 33%;
+}
+.links {
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 27px;
+  display: flex;
+  margin-right: 12.5%;
+}
+
+#link1,
+#link2,
+#link3 {
+  cursor: pointer;
+}
+.last-links {
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 0%;
+  display: flex;
+}
+/*HERE IS for burger menu*/
+.all-burgers {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+#burger10 {
+  border: 2px solid rgb(255, 80, 208);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: rgb(124, 255, 246);
+}
+#burger20 {
+  border: 2px solid rgb(255, 80, 208);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: rgb(124, 255, 135);
+}
+#burger15 {
+  border: 2px solid rgb(255, 80, 208);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: rgb(124, 187, 255);
+}
+#burger-menu {
+  text-align: center;
+}
+.all-burgers p {
+  text-align: center;
+}
+.nav-link {
+  text-align: center;
+}
+.go-recipe {
+  margin-right: 85px;
+}
+.go-spaghetti {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.go-pizza {
+  margin-left: 85px;
+}
+/*here is for pizza*/
+.all-pizzas {
+  display: flex;
+  justify-content: space-around;
+}
+.pizza01{
+  border: 2px solid rgb(92, 80, 255);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: rgb(124, 255, 255); 
+}
+.pizza02{
+  border: 2px solid rgb(80, 255, 130);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: rgb(216, 255, 124); 
+}
+.pizza03{
+  border: 2px solid rgb(255, 176, 80);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: rgb(255, 124, 124); 
+}
+.all-pizzas p{
+  text-align: center;
+}
+#order-pizza01 {
+  margin-left: 110px;
+}
+#order-pizza02 {
+ 
+  margin-left: 110px;
+}
+#order-pizza03 {
+  margin-left: 110px;
+}
+.final-links{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#pizzabook {
+  margin-right: 85px;
+}
+#ordspaghetti {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+#ordburger {
+  margin-left: 85px;
+}
