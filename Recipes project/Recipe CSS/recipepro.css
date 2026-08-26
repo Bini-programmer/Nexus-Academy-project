@@ -225,38 +225,46 @@ h1 {
   display: flex;
   justify-content: space-around;
 }
-.pizza01{
+.pizza01 {
   border: 2px solid rgb(92, 80, 255);
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
-  background-color: rgb(124, 255, 255); 
+  background-color: rgb(124, 255, 255);
 }
-.pizza02{
+.pizza02 {
   border: 2px solid rgb(80, 255, 130);
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
-  background-color: rgb(216, 255, 124); 
+  background-color: rgb(216, 255, 124);
 }
-.pizza03{
+.pizza03 {
   border: 2px solid rgb(255, 176, 80);
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
-  background-color: rgb(255, 124, 124); 
+  background-color: rgb(255, 124, 124);
 }
-.all-pizzas p{
+.all-pizzas p {
   text-align: center;
 }
 #order-pizza01 {
   margin-left: 110px;
 }
+#order-pizza01:hover {
+  background-color: coral;
+}
+#order-pizza02:hover {
+  background-color: coral;
+}
+#order-pizza03:hover {
+  background-color: coral;
+}
 #order-pizza02 {
- 
   margin-left: 110px;
 }
 #order-pizza03 {
   margin-left: 110px;
 }
-.final-links{
+.final-links {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -270,4 +278,7 @@ h1 {
 }
 #ordburger {
   margin-left: 85px;
+}
+nav a {
+  text-decoration: none;
 }
