@@ -1,0 +1,404 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.upper-navigation {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-around;
+  text-align: center;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+.upper-navigation a {
+  color: white;
+  text-decoration: none;
+}
+.first-txt {
+  text-align: center;
+}
+#mac-laptop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-txt p {
+  font-size: 25px;
+}
+.first-txt h1 {
+  font-size: 60px;
+}
+.first-txt h3 {
+  font-size: 45px;
+}
+.first-txt a {
+  font-size: 30px;
+  color: blue;
+}
+.learn {
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+}
+.learn a {
+  text-decoration: none;
+}
+.second-txt p {
+  font-size: 25px;
+}
+.second-txt h2 {
+  font-size: 60px;
+}
+.second-txt h3 {
+  font-size: 35px;
+}
+.second-txt a {
+  font-size: 30px;
+  color: blue;
+}
+.second-txt {
+  text-align: center;
+  background-color: black;
+}
+.second-txt a {
+  text-decoration: none;
+}
+#the-three {
+  color: white;
+}
+.paragraphs {
+  text-align: center;
+}
+.paragraphs h2 {
+  font-size: 60px;
+}
+.paragraphs h3 {
+  font-size: 35px;
+}
+.paragraphs p {
+  font-size: 25px;
+}
+.paragraphs a {
+  font-size: 30px;
+}
+.paragraphs a {
+  text-decoration: none;
+}
+.side1 {
+  padding-top: 85px;
+}
+.side2 {
+  padding-top: 85px;
+}
+#watch-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.series5 {
+  text-align: center;
+}
+.series5 p {
+  font-size: 30px;
+}
+.series5 a {
+  font-size: 30px;
+  text-decoration: none;
+}
+#learn-more {
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+}
+#learn-buy {
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+}
+#more-buy {
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+}
+#more-buy a {
+  color: blue;
+}
+#learn-buy a {
+  color: blue;
+}
+.wrapper66 {
+  text-align: center;
+}
+#card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper66 p {
+  font-size: 35px;
+}
+.wrapper66 a {
+  font-size: 30px;
+  color: blue;
+}
+#wrap-buy {
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+}
+#wrap-buy a {
+  text-decoration: none;
+}
+.wrapper-two {
+  display: flex;
+  flex-direction: row;
+}
+.side1,
+.side2 {
+  width: 50%;
+}
+.side1 {
+  border: 2px solid whitesmoke;
+  margin-right: 5px;
+  margin-top: 10px;
+  background-color: white;
+}
+.side2 {
+  border: 2px solid whitesmoke;
+  margin-left: 5px;
+  margin-top: 10px;
+  background-color: white;
+}
+.tv-servant {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../resources/download-replica-of-apples-home-page-built-using-html-css-content-1735311154056/apple-html-css-replica/images/home/apple-tv-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tv-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tv-servant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tv-servant a {
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.ear-phone {
+  text-align: center;
+  background-color: black;
+}
+.ear-phone h2 {
+  font-size: 60px;
+  color: white;
+}
+.ear-phone p {
+  font-size: 35px;
+  color: white;
+}
+.ear-phone a {
+  font-size: 30px;
+  text-decoration: none;
+}
+#air {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+#learn-air {
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+}
+.wrapper77 {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tv-servant,
+.airpods-pro {
+  width: 50%;
+}
+.airpods-pro {
+  margin-left: 10px;
+}
+#learn-air a {
+  color: blue;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 170px;
+}
+#trailer {
+  text-align: center;
+}
+.last-pro {
+  text-align: center;
+}
+#pro-max {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-pro h2 {
+  font-size: 60px;
+}
+.last-pro h3 {
+  font-size: 45px;
+}
+.last-pro p {
+  font-size: 35px;
+}
+.last-pro a {
+  font-size: 30px;
+  text-decoration: none;
+}
+#buy-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+#buy-more a {
+  color: blue;
+}
+#ipad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-ipad {
+  text-align: center;
+}
+.last-ipad p {
+  font-size: 35px;
+}
+.last-ipad a {
+  font-size: 30px;
+  text-decoration: none;
+  color: blue;
+}
+#new-ipad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#blur {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+.wrapper99 {
+  display: flex;
+  margin-top: 25px;
+}
+.last {
+  width: 50%;
+}
+#new-ipad {
+  width: 600px;
+}
+.huge-paragraph {
+  margin-right: 140px;
+  margin-top: 35px;
+  margin-left: 140px;
+}
+.general-links {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.link11,
+.link12,
+.link13,
+.link14,
+.link15 {
+  width: 20%;
+}
+.link11 a {
+  text-decoration: none;
+  color: black;
+}
+.link12 a {
+  text-decoration: none;
+  color: black;
+}
+.link13 a {
+  text-decoration: none;
+  color: black;
+}
+.link14 a {
+  text-decoration: none;
+  color: black;
+}
+.link15 a {
+  text-decoration: none;
+  color: black;
+}
+.general-links ul {
+  list-style: none;
+}
+.general-links a:hover {
+  text-decoration: underline;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+#final {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.final12 {
+  display: flex;
+}
+ .finalist{
+  display:  flex;
+ }
+.final-txt{
+  margin-left: 3.7px;
+}
+.all-finals{
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.final11{
+  margin-right: 32px;
+}
+.final12{
+  margin-right: 32px;
+  margin-left: 32px;
+}
+ 
+ .final12 li {
+  margin-right: 15px;
+  display: flex;
+}
+.final12 li a{
+  text-decoration: none;
+}
+.final12 li a:hover{
+  text-decoration: underline;
+}
