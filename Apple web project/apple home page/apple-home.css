@@ -5,7 +5,7 @@
 img {
   max-width: 100%;
 }
-.upper-navigation {
+.top-nav ul {
   display: flex;
   flex-direction: row;
   background-color: black;
@@ -16,12 +16,20 @@ img {
   padding-top: 15px;
   padding-bottom: 12px;
 }
-.upper-navigation a {
+.top-nav ul li a {
   color: white;
   text-decoration: none;
+  opacity: 0.7;
+}
+.top-nav a:hover {
+  opacity: 1;
 }
 .first-txt {
   text-align: center;
+}
+.first-wrapper {
+  background-color: #fafafa;
+  padding: 25px 0;
 }
 #mac-laptop {
   display: flex;
@@ -49,28 +57,39 @@ img {
 .learn a {
   text-decoration: none;
 }
-.second-txt p {
-  font-size: 25px;
-}
-.second-txt h2 {
-  font-size: 60px;
-}
-.second-txt h3 {
-  font-size: 35px;
-}
-.second-txt a {
-  font-size: 30px;
-  color: blue;
-}
-.second-txt {
-  text-align: center;
-  background-color: black;
-}
-.second-txt a {
-  text-decoration: none;
-}
 #the-three {
+  text-align: center;
   color: white;
+
+  h2 {
+    font-size: 60px;
+  }
+  p {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 45px;
+  }
+}
+#learn-more {
+  font-size: 30px;
+  padding-bottom: 310px;
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+}
+.second-section {
+  background-image: url("../resources/download-replica-of-apples-home-page-built-using-html-css-content-1735311154056/apple-html-css-replica/images/home/iphone11-pro-bg.jpg");
+  height: 580px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 20px;
 }
 .paragraphs {
   text-align: center;
@@ -86,15 +105,36 @@ img {
 }
 .paragraphs a {
   font-size: 30px;
-}
-.paragraphs a {
   text-decoration: none;
 }
+.wrapper03 {
+  background-image: url("../resources/download-replica-of-apples-home-page-built-using-html-css-content-1735311154056/apple-html-css-replica/images/home/iphone11-bg.jpg");
+  height: 580px;
+  padding: 65px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
 .side1 {
-  padding-top: 85px;
+  background-image: url("../resources/download-replica-of-apples-home-page-built-using-html-css-content-1735311154056/apple-html-css-replica/images/home/watch-series-5.jpg");
+  background-position: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 45px 10px;
+  margin: auto 10px;
+  height: 580px;
 }
 .side2 {
-  padding-top: 85px;
+  background-image: url("../resources/download-replica-of-apples-home-page-built-using-html-css-content-1735311154056/apple-html-css-replica/images/home/apple-card.jpg");
+  padding: 45px 10px;
+  margin: auto 10px;
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
 }
 #watch-logo {
   display: flex;
@@ -181,6 +221,8 @@ img {
   background-image: url("../resources/download-replica-of-apples-home-page-built-using-html-css-content-1735311154056/apple-html-css-replica/images/home/apple-tv-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .tv-logo {
   display: flex;
@@ -191,6 +233,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .tv-servant a {
   font-size: 20px;
@@ -199,7 +243,7 @@ img {
 }
 .ear-phone {
   text-align: center;
-  background-color: black;
+   background-color: black;
 }
 .ear-phone h2 {
   font-size: 60px;
@@ -213,11 +257,12 @@ img {
   font-size: 30px;
   text-decoration: none;
 }
-#air {
+#air{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  flex: 1;
+  height: 500px;
 }
 #learn-air {
   display: flex;
@@ -227,14 +272,18 @@ img {
 .wrapper77 {
   display: flex;
   margin-top: 20px;
-  margin-bottom: 20px;
+  height: 620px;
 }
 .tv-servant,
 .airpods-pro {
   width: 50%;
 }
 .airpods-pro {
-  margin-left: 10px;
+ align-items: center;
+ justify-content: center;
+ background-color: black;
+ margin-left: 10px;
+ margin-right: 10px;
 }
 #learn-air a {
   color: blue;
@@ -255,6 +304,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 80px;  
 }
 .last-pro h2 {
   font-size: 60px;
@@ -286,14 +336,17 @@ img {
 }
 .last-ipad {
   text-align: center;
+ 
 }
 .last-ipad p {
   font-size: 35px;
+  
 }
 .last-ipad a {
   font-size: 30px;
   text-decoration: none;
   color: blue;
+   
 }
 #new-ipad {
   display: flex;
@@ -309,18 +362,37 @@ img {
 }
 .wrapper99 {
   display: flex;
-  margin-top: 25px;
+ margin: 10px;
+
 }
-.last {
+.last{
+  background-color: white;
+  margin-left: 10px;
+}
+.last,
+.last-pair {
   width: 50%;
 }
-#new-ipad {
-  width: 600px;
+
+.last-pair {
+  background-image: url("../resources/download-replica-of-apples-home-page-built-using-html-css-content-1735311154056/apple-html-css-replica/images/home/new-ipad.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10px;
 }
 .huge-paragraph {
-  margin-right: 140px;
-  margin-top: 35px;
-  margin-left: 140px;
+  margin-right: 125px;
+ padding-top: 20px;
+  margin-left: 125px;
+}
+.huge-paragraph a{
+  opacity: 1;
+  color: black;
+  text-decoration: none;
+}
+.huge-paragraph a:hover{
+  text-decoration: underline
 }
 .general-links {
   display: flex;
@@ -373,32 +445,38 @@ ul {
 .final12 {
   display: flex;
 }
- .finalist{
-  display:  flex;
- }
-.final-txt{
+.finalist {
+  display: flex;
+}
+.final-txt {
   margin-left: 3.7px;
 }
-.all-finals{
+.all-finals {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-bottom: 50px;
   margin-top: 20px;
 }
-.final11{
-  margin-right: 32px;
-}
-.final12{
-  margin-right: 32px;
-  margin-left: 32px;
-}
- 
- .final12 li {
+
+.final12 li {
   margin-right: 15px;
   display: flex;
 }
-.final12 li a{
+.final12 li a {
   text-decoration: none;
 }
-.final12 li a:hover{
+.final12 li a:hover {
   text-decoration: underline;
+}
+.general-links a {
+  opacity: 0.6;
+}
+.huge-paragraph p {
+  font-size: 18px;
+  opacity: 0.65;
+}
+.last-wrapper {
+  background-color: #f5f5f7;
+  margin-top: 10px;
 }
