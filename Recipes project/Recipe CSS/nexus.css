@@ -110,6 +110,10 @@ button {
 }
 #pass {
   font-size: 15px;
+  text-decoration: none;
+}
+#login:hover{
+  background-color: coral;
 }
 #login {
   padding: 2%;
@@ -127,8 +131,18 @@ button {
   padding: 2%;
   border-radius: 2rem;
 }
+#sign{
+text-decoration: none;
+ color: blue;
+}
+#sign:hover{
+  text-decoration: underline;
+}
 .signup {
   font-size: 20px;
+}
+.with-goo:hover{
+  background-color: coral;
 }
 .with-goo {
   padding: 2%;
