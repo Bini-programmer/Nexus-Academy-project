@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+.puppy11 img {
+  width: 100%;
+}
+.same-color {
+  background-color: rgb(12, 12, 108);
+}
+h1 {
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.lower-txt p {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.two-and-missing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  gap:10px;
+}
+.puppy12,
+.missing,
+.puppy13 {
+  text-align: center;
+  flex: 1;
+}
+.missing {
+ display: flex;
+ justify-content: center; 
+ align-items: center;
+  text-align: center; 
+  font-size: 25px;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.final-puppies {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.puppy12 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+.missing {
+  height: 310px;
+  width: 310px;
+  
+  background-color: aquamarine;
+}
+
+.puppy13 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.puppy14 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.puppy15 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* here starts media query */
+@media(min-width:540px){
+  body{
+    background-color: rgb(150, 80, 255);
+  }
+}
+@media (min-width: 720px) {
+  body {
+    background-color: rgb(243, 107, 166);
+  }
+}
+@media(min-width:960px){
+  body{
+    background-color: coral;
+  }
+}
+@media(min-width:1140px){
+  body{
+    background-color: rgb(80, 255, 197);
+  }
+}
+@media (min-width: 720px) {
+  .two-and-missing div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+@media (min-width: 720px) {
+  .final-puppies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
