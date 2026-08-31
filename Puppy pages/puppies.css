@@ -34,7 +34,7 @@ h1 {
   align-items: center;
   flex-direction: column;
   margin: auto;
-  gap:10px;
+  gap: 10px;
 }
 .puppy12,
 .missing,
@@ -43,10 +43,10 @@ h1 {
   flex: 1;
 }
 .missing {
- display: flex;
- justify-content: center; 
- align-items: center;
-  text-align: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 25px;
 }
 h2 {
@@ -62,55 +62,54 @@ h2 {
   align-items: center;
   margin-bottom: 10px;
 }
-.puppy12 {
-  margin-top: 10px;
-  margin-bottom: 10px;
- 
-}
 .missing {
   height: 310px;
-  width: 310px;
-  
+  width: 309px;
+
   background-color: aquamarine;
 }
-
-.puppy13 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  
+.two-and-missing div {
+  margin: 10px;
 }
-.puppy14 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+.final-puppies img {
+  margin: 10px;
+  width: 320px;
+  margin-inline: auto;
 }
-.puppy15 {
-  margin-left: 10px;
-  margin-right: 10px;
+#p2 {
+  display: none;
 }
 /* here starts media query */
-@media(min-width:540px){
-  body{
+@media (min-width: 576px) {
+  body {
     background-color: rgb(150, 80, 255);
   }
 }
-@media (min-width: 720px) {
+@media (min-width: 768px) {
   body {
-    background-color: rgb(243, 107, 166);
+    background-color: rgba(107, 243, 127, 0.977);
+  }
+  #p2 {
+    display: block;
+  }
+  #p1 {
+    display: none;
+  }
+  .missing {
+    background-color: cornflowerblue;
   }
 }
-@media(min-width:960px){
-  body{
+@media (min-width: 992px) {
+  body {
     background-color: coral;
   }
 }
-@media(min-width:1140px){
-  body{
-    background-color: rgb(80, 255, 197);
+@media (min-width: 1200px) {
+  body {
+    background-color: rgb(249, 255, 80);
   }
 }
-@media (min-width: 720px) {
+@media (min-width: 768px) {
   .two-and-missing div {
     display: flex;
     justify-content: center;
@@ -119,11 +118,28 @@ h2 {
     gap: 10px;
   }
 }
-@media (min-width: 720px) {
+@media (min-width: 768px) {
   .final-puppies {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .final-puppies img {
+    max-width: 350px;
+    gap: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .final-puppies {
+    gap: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .final-puppies img {
+    max-width: 400px;
   }
 }
