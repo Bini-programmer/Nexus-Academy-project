@@ -65,7 +65,6 @@ h2 {
 .missing {
   height: 310px;
   width: 309px;
-
   background-color: aquamarine;
 }
 .two-and-missing div {
@@ -83,6 +82,11 @@ h2 {
 @media (min-width: 576px) {
   body {
     background-color: rgb(150, 80, 255);
+  }
+  .missing{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
   }
 }
 @media (min-width: 768px) {
