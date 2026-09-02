@@ -1,78 +1,109 @@
-.title {
-  background-color: rgb(61, 28, 59);
-  padding: 5px;
-  text-align: center;
-  color: white;
-  position: relative;
-}
-h1 {
-  font-size: 50px;
-}
-.navs {
-  display: flex;
-}
-.home {
-  margin-left: 5px;
-  margin-right: 55px;
-}
-.courses {
-  margin-right: 55px;
-}
-.contact {
-  margin-left: 55px;
+/* here is the nexus academy login page styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   background-color: aqua;
 }
-.forms {
-  background-color: rgb(202, 209, 216);
+.header {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
-
-.learn {
+h1,
+h2 {
+  font-size: 50px;
+}
+.languages h3 {
   font-size: 35px;
 }
-.paragraph11 {
+.mixed-format {
+  background-color: rgb(202, 209, 216);
+  border: 2px solid rgb(21, 6, 6);
+  border-radius: 1.5rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 550px;
+  margin: 10px auto;
+  width: 90%;
+}
+#login-account {
   font-size: 25px;
 }
-.mixed-form {
-  display: flex;
-  align-items: center;
+#address {
+  font-size: 20px;
+}
+#password-label {
+  font-size: 20px;
+}
+#pass {
+  font-size: 15px;
+  text-decoration: none;
+}
+#login:hover {
+  background-color: coral;
+}
+.signup {
+  font-size: 20px;
+}
+#sign {
+  text-decoration: none;
+  color: blue;
+}
+#login {
+  padding: 0.2%;
+  padding-left: 66px;
+  padding-right: 66px;
+  border-radius: 2rem;
+  background-color: rgb(113, 113, 234);
+  color: whitesmoke;
+}
+.with-goo:hover {
+  background-color: coral;
+}
+.with-goo {
+  padding: 0.2%;
+  padding-left: 18.5px;
+  padding-right: 18.5px;
+  border-radius: 2rem;
+  background-color: rgb(129, 99, 143);
+  color: whitesmoke;
+}
+#email,
+.log-pass {
+  border-radius: 2rem;
+}
+/* here starts the styles for the sign-up form */
+.navbar nav a {
+  text-decoration: none;
+  color: black;
+}
+.description {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.paragraph11 {
+  font-size: 35px;
+}
+.form-container {
+  box-sizing: border-box;
+  background-color: rgb(101, 178, 254);
+  border: 2px solid rgb(87, 15, 15);
+  border-radius: 2rem;
+  border-width: 3px;
+  width: 90%;
+  max-width: 650px;
+  padding: 50px;
+  margin: 35px auto;
 }
 .start {
   font-size: 30px;
-}
-.forms {
-  margin-left: 125px;
-  border: 2px solid rgb(87, 15, 15);
-  margin-top: 35px;
-
-  border-radius: 2rem;
-  border-width: 3px;
-  padding-top: 5px;
-  padding-right: 10px;
-  padding-left: 5px;
-  padding-bottom: 30px;
-}
-.both-names {
-  display: flex;
-}
-.middle-form {
-  padding-left: 20%;
-}
-button {
-  cursor: pointer;
-}
-#btn {
-  border-width: 2px;
-  border-radius: 2rem;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 3px;
-  padding-top: 3px;
-  background-color: rgb(80, 148, 112);
-}
-#btn:hover{
-  background-color: coral;
+  margin-bottom: 20px;
 }
 #first-name,
 #last-name,
@@ -83,76 +114,16 @@ button {
 #phone-number {
   border-radius: 2rem;
 }
-.mixed-format {
-  border: 2px solid rgb(21, 6, 6);
-  display: flex;
-  align-items: center;
-  border-radius: 1.5rem;
-  padding-top: 5px;
-  padding-bottom: 3%;
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-  background-color: rgb(223, 217, 221);
+#btn {
+  border-width: 2px;
+  border-radius: 2rem;
+  padding: 3px 10px;
+  background-color: rgb(80, 148, 112);
 }
-.formats {
-  font-size: 25px;
-  border-radius: 1.5rem;
-  margin-left: 30%;
-  box-sizing: border-box;
-}
-.description {
-  font-size: 25px;
-  border-radius: 1.5rem;
-  margin-right: 20px;
-  margin-left: 5%;
-}
-#pass {
-  font-size: 15px;
-  text-decoration: none;
-}
-#login:hover{
+#btn:hover {
   background-color: coral;
 }
-#login {
-  padding: 2%;
-  padding-left: 66px;
-  padding-right: 66px;
-  border-radius: 2rem;
-  background-color: rgb(113, 113, 234);
-  color: whitesmoke;
-}
-.log-pass {
-  padding: 2%;
-  border-radius: 2rem;
-}
-#email {
-  padding: 2%;
-  border-radius: 2rem;
-}
-#sign{
-text-decoration: none;
- color: blue;
-}
-#sign:hover{
-  text-decoration: underline;
-}
-.signup {
-  font-size: 20px;
-}
-.with-goo:hover{
-  background-color: coral;
-}
-.with-goo {
-  padding: 2%;
-  padding-left: 18.5px;
-  padding-right: 18.5px;
-  border-radius: 2rem;
-  background-color: rgb(129, 99, 143);
-  color: whitesmoke;
-}
-#or {
-  font-size: 15px;
-  padding-left: 70px;
+label {
+  width: 180px;
+  text-align: left;
 }
