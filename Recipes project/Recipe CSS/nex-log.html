@@ -4,56 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../Bootstrap file/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="nexus.css">
     <title>Nexus Academy</title>
 
 </head>
 
 <body>
-    <header></header>
-
-
-    <main class="mixed-format">
-        <section class="description">
-            <div>
-                <h1>NEXUS</h1>
-                <h2> ACADEMY</h2>
+    <header class="container text-center header">
+        <div class="row">
+            <div class="text-center p-2">
+                <h1>WELCOME TO <br> NEXUS ACADEMY!</h1>
+                
             </div>
-            <div>
-                <h3>Learn. Innovate. Elevate.</h3>
-
-
-                <p>Welcome back! Login to continue <br> your learning journey and unlock <br> new opportunities.</p>
+            <div class="languages">
+                <h3>Learn Languages With Us.</h3>
+                <h3>Build Your Future.</h3>
             </div>
-        </section>
-
-        <article class="formats">
+        </div>
+    </header>
+    <!-- here is for the main content box -->
+    <main class="container text-center mixed-format">
+        <section class="row gap-3">
             <div>
                 <h2>Welcome Back</h2>
-                <p>Login to your Nexus Academy account.</p>
+                <p id="login-account">Login to your Nexus Academy account.</p>
             </div>
             <div>
-                <form action="#">
-                    <label for="email address">Email Address:</label>
+                <form action="#" class="gap-3">
+                    <label id="address" for="email address">Email Address:</label> <br>
                     <input type="email" id="email" name="email address" placeholder="enter your email" required>
                     <br>
-                    <label for="password">Password:</label> <br>
+                    <label id="password-label" for="password">Password:</label> <br>
                     <input class="log-pass" type="password" id="password" name="password"
                         placeholder="enter your password" required>
                     <a id="pass" href="www.nexusacademy.com/password"><br> Forgot Password?</a> <br>
                     <button type="text" id="login" name="login" required>Login</button>
                     <p id="or">Or</p>
                     <button class="with-goo">Continue with Google</button>
-                    <p class="signup">Don't have an account? <a id="sign" href="../../index.html">Sign up here.</a></p>
+                    <p class="signup">Don't have an account? <a id="sign" href="../../index-nexus.html">Sign up here.</a></p>
                 </form>
             </div>
-        </article>
-        <aside>
-        </aside>
-
+        </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        
+    </footer>
 
 </body>
 
