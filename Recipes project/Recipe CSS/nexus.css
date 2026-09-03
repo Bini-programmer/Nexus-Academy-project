@@ -7,6 +7,9 @@
 body {
   background-color: aqua;
 }
+.general-wrapper{
+  box-shadow: 5px 5px 5px 5px rgb(234, 228, 228);
+}
 .header {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -47,13 +50,13 @@ h2 {
   background-color: coral;
 }
 .signup {
-  font-size: 20px;
+  font-size: 15px;
 }
 #sign {
   text-decoration: none;
-  color: blue;
 }
 #login {
+  margin-bottom: 10px;
   padding: 0.2%;
   padding-left: 66px;
   padding-right: 66px;
@@ -65,6 +68,7 @@ h2 {
   background-color: coral;
 }
 .with-goo {
+  margin-bottom: 10px;
   padding: 0.2%;
   padding-left: 18.5px;
   padding-right: 18.5px;
@@ -77,10 +81,42 @@ h2 {
   border-radius: 2rem;
 }
 /* here starts the styles for the sign-up form */
-.navbar nav a {
+ .header-wrapper{
+  background-color:rgba(0, 0, 0, 0.861);
+ }
+ header nav{
+  display: flex;
+  justify-content: space-between;
+ }
+ .header-wrapper a{
+  color: white;
   text-decoration: none;
-  color: black;
-}
+ }
+ .header-wrapper li{
+  list-style: none;
+ }
+ #menu{
+  color: white;
+   text-align: left;
+   margin: auto;
+   margin-right: 15px;
+   font-size: 30px;
+ }
+ nav ul{
+  display: flex;
+ }
+ nav a{
+  margin-right: 30px;
+ }
+ ul li{
+ padding-top:20px;
+ }
+  li a:hover{
+  color: coral;
+ }
+ /* nav-list.show{
+  display: flex;
+ } */
 .description {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
@@ -114,6 +150,10 @@ h2 {
 #phone-number {
   border-radius: 2rem;
 }
+input{
+  box-sizing: border-box;
+   padding-left: 7px;
+}
 #btn {
   border-width: 2px;
   border-radius: 2rem;
@@ -126,4 +166,36 @@ h2 {
 label {
   width: 180px;
   text-align: left;
+}
+.footer-links {
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .form-container {
+    width: 90%;
+    padding: 20px;
+  }
+  label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  .footer {
+     display: flex;
+     flex-direction: column;
+  }
+  footer p{
+    margin-top: 5px;
+  }
+}
+/* media query for the mobile responsive */
+@media(max-width:600px){
+  nav li{
+    display: none;
+  }
+}
+@media(min-width:600px){
+  #menu{
+    display: none;
+  }
 }
